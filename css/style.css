@@ -5,17 +5,24 @@
 }
 body{
   font-family: 'Poppins', sans-serif;
+  background-image: linear-gradient(rgba(255, 255, 0, 0.5), rgba(0, 0, 255, 0.5)),
+                    url(../images/top-banner.png);
+  background-repeat: no-repeat;
 }
+
+                    -----/* header part CSS end */-----
 
 h2{
   font-size: 50px;
 }
 .wlc{
+  font-size: 40px;
   font-weight: 600;
   text-transform: capitalize;
   font-family: 'Poppins', sans-serif;
 }
 .name{
+  font-size: 38px;
   font-weight: 600;
   text-transform: capitalize;
   font-family: 'Poppins', sans-serif;
@@ -24,21 +31,23 @@ h2{
 .orange-color{
   color: tomato;
 }
-section{
+.container{
   display: flex;
+  margin-bottom: 5rem;
 }
 .half-width{
   width: 50%;
-  padding-left: 7%;
+  padding: 0 5%;
   margin-top: 40px;
 }
 .half-width img{
   margin-top: 10px;
-  width: 90%;
+  width: 100%;
 }
-.top-banner p{
+.container p{
   margin-top: 10px;
   margin-bottom: 30px;
+  text-align: justify;
 }
 .link-button{
   background-image: linear-gradient(to right, #1A2980 0%, #26D0CE  51%, #1A2980 100%);
@@ -59,11 +68,15 @@ section{
   background-position: right center; /* change the direction of the change here */
   color: #fff;
 }
-.top-banner{
-  background-image: linear-gradient(rgba(255, 255, 0, 0.5), rgba(0, 0, 255, 0.5)),
-                    url(../images/top-banner.png);
+/* .top-banner{
+  background-image: url(../images/top-banner.png);
   background-repeat: no-repeat;
+} */
+.mid-banner{
+  background-image: url(../images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
-
-
+                      -----/* header part CSS end */-----
+                      
